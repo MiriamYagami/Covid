@@ -1,0 +1,47 @@
+
+
+main{
+  width: 940px;
+  display: flex;
+}
+h2{
+  
+   display: inline-block;
+}
+
+.div{
+  
+  display: grid;
+  margin: 88px 0px 0px 245px;
+
+}
+button{
+
+  font-size: 20px;
+
+}
+@media screen and (max-width: 480px){
+
+ #imgGeral{ 
+
+  image-rendering: -webkit-optimize-contrast;
+  width: 83em
+
+ }
+  
+
+h2{
+
+  margin: 0 -21em 1em 0;
+  font-size: 46px;
+}
+
+main{
+
+  display: table-cell;
+}
+
+
+
+
+}
